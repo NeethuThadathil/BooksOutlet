@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<style>
+    div
+    {
+       background-image: linear-gradient(#5d96ec,#8579EC,#D1C2F9);
+    }
+</style>
+</head>
+<body>
+   <h1 class="text-center mt-4">Add Book</h1> 
+   <div class="container w-50 bg-light p-5 mt-5 border text-center">
+    <form action="">
+        <input id="bkid" placeholder="Book ID"   type="text"  class="form-control mt-2 p-2">
+        <input  id="bknamee" placeholder="Book Name" type="text"  class="form-control mt-2 p-2">
+        <input  id="bkauthor"placeholder="Author Name"   type="password"  class="form-control mt-2 p-2">
+        <input id="bkdscrpn" placeholder="Descripion" type="password" class="form-control mt-2 p-2">
+         <p id="ale" class="m-5"></p>
+        <button onclick="addBook()" type="submit"  class="btn btn-danger w-50 mt-4">Add Details</button>
+        <button onclick="cnt()" type="button"  class="btn btn-warning w-50 mt-4">Search Book</button>
+
+    </form>
+   </div>
+</body>
+<script src="./book.js"></script>
+</html>
